@@ -213,7 +213,7 @@ const CONFIG = {
   },
   social: {
     linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    twitter: 'jomonthomaslobo',
     mastodon: 'arifszn@mastodon.social',
     researchGate: '',
     facebook: '',
@@ -519,7 +519,7 @@ const CONFIG = {
   // ...
   social: {
     linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    twitter: 'jomonthomaslobo',
     mastodon: 'arifszn@mastodon.social',
     researchGate: '',
     facebook: '',
