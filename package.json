@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/arifszn/gitprofile/issues"
   },
-  "homepage":"https://jomonthomaslobo.github.io/gitprofile",
+  "homepage":"https://jomonthomaslobo.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
