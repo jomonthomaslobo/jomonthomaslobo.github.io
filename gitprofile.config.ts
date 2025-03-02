@@ -29,25 +29,17 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Aidsys Latest News',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Latest News is a simple plugin that allows you to display the latest news articles on your WordPress website. You can easily customize the appearance and behavior of the news ticker to suit your needs',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+            'https://s.w.org/plugins/geopattern-icon/aidsys-latest-news.svg',
+          link: 'https://wordpress.org/plugins/aidsys-latest-news/',
+        }
       ],
     },
   },
@@ -58,7 +50,7 @@ const CONFIG = {
   },
   social: {
     linkedin: '/jomonthomaslobo',
-    twitter: '@jomonthomaslovo',
+    twitter: '@jomonthomaslobo',
     mastodon: '',
     researchGate: '',
     facebook: '/jomonthomaslobo',
@@ -74,7 +66,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: '',
+    website: 'jomonlobo.online',
     phone: '',
     email: 'jomonthomaslobo@gmail.com',
   },
@@ -83,10 +75,12 @@ const CONFIG = {
       'https://drive.google.com/file/d/1mF8cyEN65LhtckIvxWRyUREdpfO0B-9F/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
     'Laravel',
-    'JavaScript',
+    'PHP',    
     'WordPress',
+    'Flutter',
+    'Project Management',
+    'JavaScript',
     'React',
     'MySQL',
     'PostgreSQL',
@@ -99,6 +93,13 @@ const CONFIG = {
    
   ],
   experiences: [
+    {
+      company: 'Freelancer',
+      position: 'WordPresss Developer,WordPress Security Expert,Laravel Projects, Secuirty Audit',
+      from: 'May 2023',
+      to: 'May 2024',
+      companyLink: 'https://webdevcompany.in',
+    },
     {
       company: 'Awsm Digital Innovations Pvt Ltd',
       position: 'Associate Product Manager',
@@ -113,13 +114,47 @@ const CONFIG = {
       to: 'May  2023',
       companyLink: 'https://alignminds.com',
     },
+    {
+      company: 'Akira Software Solutions',
+      position: 'Team Lead',
+      from: 'Jan 2022',
+      to: 'April  2023',
+      companyLink: 'https://akiraplc.com',
+    },
+    {
+      company: 'KITE- Kerala Infrastructure and Technology for Education',
+      position: 'Software Engineer',
+      from: 'Dec 2018',
+      to: 'Jan  2022',
+      companyLink: 'https://kite.kerala.gov.in',
+    },
+    {
+      company: 'Filanza Infosec Pvt Ltd',
+      position: 'TL Web Development',
+      from: 'May 2017',
+      to: 'Dec  2018',
+      companyLink: 'https://filanza.org',
+    },
+    {
+      company: 'Probuk Solutions LLP',
+      position: 'TL ',
+      from: 'Jan 2015',
+      to: 'May  2017',
+      companyLink: 'https://filanza.org',
+    },
   ],
   certifications: [
     {
-      name: 'Cyber Security Ceritifcation',
+      name: 'Cyber Security Certification',
       body: 'Google via Coursera',
       year: 'March 2024',
       link: 'https://www.credly.com/badges/d663e7d9-b26f-452c-81ba-4aca472a9889/linked_in?t=s9vifl',
+    },
+    {
+      name: 'Project Management Proffessional Certification',
+      body: 'Google via Coursera',
+      year: 'March 2024',
+      link: 'https://www.credly.com/badges/a3d2f237-c7f0-4306-a580-9c3273859c5d',
     },
   ],
   educations: [
@@ -137,29 +172,29 @@ const CONFIG = {
     },
   ],
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+    // {
+    //   title: 'Publication Title',
+    //   conferenceName: '',
+    //   journalName: 'Journal Name',
+    //   authors: 'John Doe, Jane Smith',
+    //   link: 'https://example.com',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    // },
+    // {
+    //   title: 'Publication Title',
+    //   conferenceName: 'Conference Name',
+    //   journalName: '',
+    //   authors: 'John Doe, Jane Smith',
+    //   link: 'https://example.com',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    // },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -171,11 +206,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -234,7 +269,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Credits to  <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
