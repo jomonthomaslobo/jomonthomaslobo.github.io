@@ -63,7 +63,7 @@ const CONFIG = {
     behance: '',
     medium: 'jomonthomaslobo',
     dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '8630284/jomon-thomas-lobo', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
     website: 'jomonlobo.online',
