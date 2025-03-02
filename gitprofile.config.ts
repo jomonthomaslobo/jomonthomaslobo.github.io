@@ -44,9 +44,9 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Jomon Thomas Lobo',
-    description: '',
-    imageURL: '',
+    title: 'Jomon Thomas Lobo - Product Manager & Cybersecurity Professional',
+    description: 'Experienced Product Manager with expertise in PHP, Laravel, and WordPress security. Contributor to WordPress core and open-source projects. Cybersecurity enthusiast with multiple certifications.',
+    imageURL: 'https://avatars.githubusercontent.com/u/16968704?v=4',
   },
   social: {
     linkedin: '/jomonthomaslobo',
